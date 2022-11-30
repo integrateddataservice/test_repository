@@ -2,12 +2,12 @@
 
 ## Test IDE
 
- - [ ] import standard library packages
- - [ ] run basic analysis
+ - [x] import standard library packages
+ - [x] run basic analysis
  - [ ] create visualisations using seaborn, bokeh, matplotlib, folium
  - [ ] create script and link to console
  - [ ] link multiple scripts to one console
- - [ ] git integration
+ - [x] git integration
  - [ ] debugger
  - [ ] customise JLab
  
@@ -22,18 +22,18 @@
  - [ ] use curl command to upload artifact
  
 ## Test GitHub
- - [ ] create a repository in GitHub
- - [ ] clone a repository in JLab
+ - [x] create a repository in GitHub
+ - [x] clone a repository in JLab
  - [ ] check privilages 
  - [ ] add/remove someone
  - [ ] create/delete repo
  - [ ] make a repo public/private
 
 ## Test Cloudflare
- - [ ] copy and paste inside browser isolation (BI)
- - [ ] copy outside paste inside BI
- - [ ] copy inside paste outside BI
- - [ ] copy paste outside BI (i.e. doesn't interfere with anything outside Cloudflare)
+ - [x] copy and paste inside browser isolation (BI)
+ - [x] copy outside paste inside BI
+ - [x] copy inside paste outside BI
+ - [x] copy paste outside BI (i.e. doesn't interfere with anything outside Cloudflare)
  
 # Notes
 - Cloudflare is sometimes lagy (I think). Things that make it worse:
@@ -43,4 +43,5 @@
 I sometimes think I've made a mistake and have to wait for the keyboard to catch up, 
 - Need to PAT for GitHub, this is created in BI so can't save it anywhere for future use (maybe a good thing?). The fine-grained PAT didn't seem to work, I used my existing PAT, which I had to copy and paste outside Cloudflare's reach
 - Logging into everything takes some time with 2FA for IDS and GitHub
+- The JupyterLab git integration is great. No need to reuse PAT after first time.
 
