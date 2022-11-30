@@ -38,7 +38,9 @@
 # Notes
 - Cloudflare is sometimes lagy (I think). Things that make it worse:
     - after leaving it for a bit them come back
-    - going between notebook and terminal in JLab (very lagy)
+    - going between tabs within JLab (maybe)
+    - using the terminal in JLab (very lagy)
 I sometimes think I've made a mistake and have to wait for the keyboard to catch up, 
-- If you leave your laptop for a bit Cloudflare will log you out of GitHub and IDS
-- Need to PAT for GitHub, this is created in BI so can't save it anywhere for future use (maybe a good thing?)
+- Need to PAT for GitHub, this is created in BI so can't save it anywhere for future use (maybe a good thing?). The fine-grained PAT didn't seem to work, I used my existing PAT, which I had to copy and paste outside Cloudflare's reach
+- Logging into everything takes some time with 2FA for IDS and GitHub
+
