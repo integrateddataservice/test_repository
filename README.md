@@ -29,7 +29,7 @@
 ## Test Artifactory
  - [ ] set up pip and conda to install from Artifactory
  - [ ] install a package using pip and conda
- - [ ] use curl command to upload artifact
+ - [ ] use curl command to upload artifact (will obviously not work)
  
 ## Test GitHub
  - [x] create a repository in GitHub
@@ -73,3 +73,8 @@ I sometimes think I've made a mistake and have to wait for the keyboard to catch
 - Can't delete a folder in JLab, I think it's because there's a hidden file in there and JLab won't let you delete folders with files in them.
 - Option to view .gitignore under the *Git* menu doesn't work
 
+*06/12/2022
+
+- Struggling to log into UAT through Hub again. Also GitHub not rendering properly, when I navigate through the IDS org on there it sometimes gives me website blocked.
+- Can't install packages from script because it's asking for credentials.
+- Credentials don't seem to be stored when using pip for the second time. Also asked me if I wanted to store credentials but got an error when saying yes. Install worked thoughw
